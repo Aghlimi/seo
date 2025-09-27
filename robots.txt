@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aghlimi.github.io/sitemap.xml
+Sitemap: https://aghlimi.github.io/seo/sitemap.xml
