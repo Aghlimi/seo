@@ -1,9 +1,8 @@
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://your-github-username.github.io/</loc>
+    <loc>https://aghlimi.github.io/</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +10,7 @@
 
   <!-- Projects section -->
   <url>
-    <loc>https://your-github-username.github.io/#projects</loc>
+    <loc>https://aghlimi.github.io/#projects</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +18,7 @@
 
   <!-- About section -->
   <url>
-    <loc>https://your-github-username.github.io/#about</loc>
+    <loc>https://aghlimi.github.io/#about</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -27,10 +26,9 @@
 
   <!-- Contact section -->
   <url>
-    <loc>https://your-github-username.github.io/#contact</loc>
+    <loc>https://aghlimi.github.io/#contact</loc>
     <lastmod>2025-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 </urlset>
-```

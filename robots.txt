@@ -1,7 +1,5 @@
-```txt
 # robots.txt - tells search engines what they can crawl
 User-agent: *
 Allow: /
 
-Sitemap: https://your-github-username.github.io/sitemap.xml
-```
+Sitemap: https://aghlimi.github.io/sitemap.xml
