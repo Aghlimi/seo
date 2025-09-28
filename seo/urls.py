@@ -27,9 +27,9 @@ def page(request, page_name='index.html'):
     return render(request, f'{page_name}')
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('robots.txt', lambda r: render(r, 'robots.txt', content_type='text/plain')),
     path('<str:page_name>/', page, name='home'),
     path('', page, name='home'),
-    path('robots.txt', lambda r: render(r, 'robots.txt', content_type='text/plain')),
     path('sitemap.xml', sitemap, name='sitemap'),
     path('sitemap-pages.xml', sitemap_pages, name='sitemap-pages')
 ]
