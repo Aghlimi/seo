@@ -29,6 +29,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('<str:page_name>/', page, name='home'),
     path('', page, name='home'),
+    path('robots.txt', lambda r: render(r, 'robots.txt', content_type='text/plain')),
     path('sitemap.xml', sitemap, name='sitemap'),
     path('sitemap-pages.xml', sitemap_pages, name='sitemap-pages')
 ]
